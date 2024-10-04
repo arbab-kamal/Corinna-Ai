@@ -7,7 +7,7 @@ import React from "react";
 type Props = {
   id: string;
 };
-const url = "http://localhost:3000";
+const url = "https://corinna-ai-two.vercel.app";
 const CodeSnippet = ({ id }: Props) => {
   const { toast } = useToast();
   let snippet = `
