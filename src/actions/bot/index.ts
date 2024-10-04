@@ -10,7 +10,7 @@ import OpenAi from "openai";
 const openai = new OpenAi({
   apiKey: process.env.OPEN_AI_KEY,
 });
-const url = "http://localhost:3000";
+const url = "https://corinna-ai-two.vercel.app";
 export const onStoreConversations = async (
   id: string,
   message: string,
