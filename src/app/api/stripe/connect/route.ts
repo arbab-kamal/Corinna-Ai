@@ -7,7 +7,7 @@ const stripe = new Stripe(process.env.STRIPE_SECRET!, {
   typescript: true,
   apiVersion: "2024-04-10",
 });
-const url = "http://localhost:3000";
+const url = "https://corinna-ai-two.vercel.app";
 export async function GET() {
   try {
     const user = await currentUser();
