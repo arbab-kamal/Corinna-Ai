@@ -11,7 +11,7 @@ import {
   useStripe as useStripeHook,
 } from "@stripe/react-stripe-js";
 import { useRouter } from "next/navigation";
-const url = "http://localhost:3000";
+const url = "https://corinna-ai-two.vercel.app";
 export const useStripe = () => {
   const [onStripeAccountPending, setOnStripeAccountPending] =
     useState<boolean>(false);
