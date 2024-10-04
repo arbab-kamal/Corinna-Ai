@@ -7,7 +7,7 @@ import { Card, CardContent } from '@/components/ui/card'
 import { Separator } from '@/components/ui/separator'
 import { currentUser } from '@clerk/nextjs'
 import React from 'react'
-
+export const dynamic = 'force-dynamic';
 type Props = {}
 
 const Page = async (props: Props) => {
