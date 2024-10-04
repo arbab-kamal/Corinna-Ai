@@ -2,7 +2,6 @@
 
 import { client } from '@/lib/prisma'
 import { currentUser } from '@clerk/nextjs'
-export const dynamic = 'force-dynamic';
 export const onDomainCustomerResponses = async (customerId: string) => {
   try {
     const customerQuestions = await client.customer.findUnique({
