@@ -16,7 +16,8 @@ import PersonIcon from '@/icons/person-icon'
 import { TransactionsIcon } from '@/icons/transactions-icon'
 import { DollarSign } from 'lucide-react'
 import React from 'react'
-
+// Ensure the page is rendered dynamically
+export const dynamic = 'force-dynamic';
 type Props = {}
 
 const Page = async (props: Props) => {
